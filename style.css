@@ -1,0 +1,65 @@
+/* Atur font dan warna dasar */
+body {
+  font-family: 'Poppins', Georgia;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #dba2dc;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Konten utama */
+main {
+  background-color: #ffffff;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Gambar profil */
+img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Teks paragraf */
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px auto;
+  width: 70%;
+}
+
+/* Tautan (link) */
+a {
+  color: #6a5acd;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #e6e6fa;
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect pada link */
+a:hover {
+  background-color: #d0cbcf;
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+}
+
